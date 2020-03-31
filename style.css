@@ -111,8 +111,9 @@ main{
 }
 
 .about p{
-    font-size: 22px;
+    font-size: 20px;
     text-align: left;
+    margin-bottom:40px;
 }
 
 .btn-default {
@@ -145,6 +146,30 @@ main{
     background-color: black;
 }
 
+.form-control{
+    padding-left: 0px;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    height: 70px;
+    font-size: 22px;
+}
+
+.form-control:focus{
+    border-color: #ccc;
+    box-shadow: none;
+}
+
+textarea{
+    width:100%;
+    resize: none;
+}
+
+.form button{
+    padding: 15px 30px;
+}
+
 footer{
     text-align: center;
     color: white;
@@ -174,7 +199,17 @@ footer{
     margin: 0;
 }
 
-.fab{
+.dati i{
     border: 1px solid white;
     border-radius:100%;
+    font-size: 22px;
+    width:45px;
+    height: 45px;
+    line-height: 43px;
+}
+
+.dati i:hover{
+    color: #2c3e50;
+    background-color: white;
+    cursor: pointer;
 }
